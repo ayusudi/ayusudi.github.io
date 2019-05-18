@@ -1,0 +1,15 @@
+body {
+margin: 0;
+padding: 0;
+    background-image: url(../Kodaser/asset/leaf.jpg);
+    background-repeat: repeat;
+}
+
+.content {
+    background-image: url('../Kodaser/asset/leaf.jpg');
+    background-repeat: repeat;
+}
+.infromation, img {
+    height: 690px;
+    width: 1348px;
+}
