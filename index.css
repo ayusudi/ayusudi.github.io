@@ -1,15 +1,86 @@
+
+.nav {
+    float: left;
+    list-style: none;
+    margin-top: auto;
+    padding: 20px;
+    margin-right: 0px;
+    background-color: teal;
+    width: 1244px;
+}
+
+.nav li {
+    display: inline-flex;
+}
+
+.nav li a {
+    color:white;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 30px;
+}
+
+
+.nav li a:hover {
+    border: 1px solid white;
+}
+
+.nav h1 {
+    position: absolute;
+    top: -1pt;
+    right: 92px;
+    color: rgb(175, 235, 55);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
 body {
 margin: 0;
 padding: 0;
-    background-image: url(../Kodaser/asset/leaf.jpg);
+    background-image: url("leaf.jpg");
     background-repeat: repeat;
 }
 
-.content {
-    background-image: url('../Kodaser/asset/leaf.jpg');
-    background-repeat: repeat;
+
+.header{
+    margin-top: 0;
 }
-.infromation, img {
-    height: 690px;
-    width: 1348px;
+
+.information img {
+    width: 1282px;
+    height: 290px;
+ }
+
+.review{
+    background
+     : rgba(6, 58, 38, 0.3);   
+     border-radius: 30%;
+}
+
+.review img {
+  height: 170px;  
+  width: 275px;
+}
+
+.row {
+    vertical-align: center;
+    display: flex;
+    flex-direction: col;
+    max-width: 90%;   
+}
+
+ .row2 {
+     vertical-align: center;
+    display: flex;
+    flex-direction: col;
+    max-width: 90%;}
+
+.rev {
+    padding: 40px 40px ;
+    margin: 40px;
+    background: white;
+    border-radius: 40%;
 }
