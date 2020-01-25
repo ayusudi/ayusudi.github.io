@@ -17,15 +17,35 @@
             <h1>COMING SOON..</h1>
         </div>
         <div class="sosmed shadow">
-
         </div>
         <div class="portofolio">
             <h2>PORTOFOLIO</h2>
-
+            <div class="scroll">
+                <div class="porto">
+                    <div class="title">
+                        <a href="http://listonia.ayusudi.com/">
+                            <h3>Listonia</h3>
+                        </a>
+                        <br>
+                        <p>Listonia is website help your task management.<br>Listonia is actually fancy todo.</p>
+                    </div>
+                    <img src="./assets/listonia.png" alt="listonia" srcset="" class="img-porto">
+                </div>
+                <div class="porto">
+                    <div class="title">
+                        <a href="http://pressina.ayusudi.com/">
+                            <h3>Pressina</h3>
+                        </a>
+                        <br>
+                        <p>Pressina is a content management and not for publish to public so all your content is
+                            private.</p>
+                    </div>
+                    <img src="./assets/pressina.png" alt="pressina" srcset="" class="img-porto">
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-
     </footer>
 </body>
 <style>
@@ -40,7 +60,7 @@
         height: 75px;
     }
 
-    header h1{
+    header h1 {
         color: #6b0b6b;
         padding: 12px;
         margin-left: 10px;
@@ -49,6 +69,7 @@
         font-size: 30pt;
         /* text-decoration: underline; */
     }
+
     main {
         background-color: #fdfbeb;
         width: 100%;
@@ -56,6 +77,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .content {
         padding: 80px;
         position: absolute;
@@ -66,10 +88,11 @@
         height: 50%;
     }
 
-    .content h1{
+    .content h1 {
         font-size: 95pt;
         font-family: 'Bowlby One SC', cursive
     }
+
     .sosmed {
         position: absolute;
         align-self: flex-end;
@@ -91,10 +114,11 @@
         box-shadow: 1px 3px 4px 2px #3f3f3ea1;
     }
 
-    .portofolio{
+    .portofolio {
         border-top: saddlebrown dashed;
-        border-left:saddlebrown dashed ;
+        border-left: saddlebrown dashed;
         display: flex;
+        flex-direction: column;
         align-self: flex-end;
         background-color: #ffffff;
         margin-top: 50px;
@@ -102,12 +126,46 @@
         height: 95%;
     }
 
-    .portofolio h2{
+    .portofolio h2 {
         font-family: 'Bebas Neue', cursive;
         font-weight: 300;
         font-size: 32pt;
         margin: 12px;
-        margin-left: 24px;
+        margin-left: 37px;
+    }
+
+    .scroll {
+        display: flex;
+        overflow: scroll;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .porto {
+        background-color: rgb(231, 229, 231);
+        border: solid #969595 1px;
+        border-radius: 10px;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .title p {
+        font-size: 10pt;
+        padding: 2px;
+    }
+
+    .img-porto {
+        width: 55%;
+        object-fit: contain;
     }
 
     footer {
